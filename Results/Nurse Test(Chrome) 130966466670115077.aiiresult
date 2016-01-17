@@ -1,0 +1,1807 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.RunResult",
+  "__value": {
+    "IsComplete": true,
+    "Name": "Nurse Test(Chrome)",
+    "StartTime": "2016-01-07T13:22:45",
+    "EndTime": "2016-01-07T13:24:27.0115077Z",
+    "DataCollectors": {},
+    "TestResults": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'1/7/2016 2:22:45 PM' - Executing test: 'CreateNewRecordNegativeNoDate1Test(Chrome)', path: 'Tests\\CreateNewRecordNegativeNoDate1Test.tstest.'\r\n'1/7/2016 2:22:45 PM' - Using .Net Runtime version: '4.0.30319.34209' for test execution. Build version is '2015.3.1015.0'.\r\n'1/7/2016 2:22:45 PM' - Starting execution....\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'1/7/2016 2:22:47 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/7/2016 2:22:47 PM' - Using 'Chrome' version '47.0.2526.106' as default browser. \r\n'1/7/2016 2:22:47 PM' - Using 'http://va.acceliqc.com/AcceliTrack/Home.aspx' as base url.\r\n'1/7/2016 2:23:01 PM' - 'Pass' : 1. Execute test 'LoginAsNurse'\r\n\r\n>>> Test-as-Step 'Methods\\LoginAsNurse.tstest' log starts:\r\n\r\nOverall Result: Pass\r\n------------------------------------------------------------\r\n'1/7/2016 2:22:48 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/7/2016 2:22:48 PM' - Using 'Chrome' version '47.0.2526.106' as default browser. \r\n'1/7/2016 2:22:48 PM' - Using 'http://va.acceliqc.com/AcceliTrack/Home.aspx' as base url.\r\n'1/7/2016 2:22:49 PM' - 'Pass' : 1. Clear Browser Cache\r\n'1/7/2016 2:22:56 PM' - 'Pass' : 2. Navigate to : 'http://va.acceliqc.com/AcceliTrack/Home.aspx'\r\n'1/7/2016 2:22:56 PM' - 'Pass' : 3. Enter text 'nuries' in 'UserName'\r\n'1/7/2016 2:22:57 PM' - 'Pass' : 4. Enter text 'success' in 'Pass'\r\n'1/7/2016 2:23:01 PM' - 'Pass' : 5. Click 'LoginButton'\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:01 PM' - Overall Result: Pass\r\n'1/7/2016 2:23:01 PM' - Duration: [0 min: 13 sec: 234 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Methods\\LoginAsNurse.tstest' log ends.\r\n\r\n'1/7/2016 2:23:03 PM' - 'Pass' : 2. Click 'NursingPlanLink'\r\n'1/7/2016 2:23:03 PM' - 'Pass' : 3. Extract 'TextContent' on 'TotalTableCell0' into DataBindVariable $(TotalStudents)\r\n'1/7/2016 2:23:03 PM' - 'Pass' : 4. Click 'PlcContentPlcContentPlcContentBtnCreateLink'\r\n'1/7/2016 2:23:05 PM' - 'Pass' : 5. Click 'PlcContentPlcContentPlcContentCtlStudentSelectorLnkStudentSelectionLink'\r\n'1/7/2016 2:23:05 PM' - 'Pass' : 6. Click 'AdamsSavannahTableCell'\r\n'1/7/2016 2:23:06 PM' - 'Pass' : 7. Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeLstFieldControlSelect'\r\n'1/7/2016 2:23:07 PM' - 'Pass' : 8. Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeSecondLstFieldControlSelect'\r\n'1/7/2016 2:23:07 PM' - 'Pass' : 9. Enter text 'desease' in 'PlcContentPlcContentPlcContentCtlMedicalConditionTxtFieldControlMultilineTextArea'\r\n'1/7/2016 2:23:08 PM' - 'Pass' : 10. Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'\r\n'1/7/2016 2:23:08 PM' - 'Pass' : 11. Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'\r\n'1/7/2016 2:23:09 PM' - 'Pass' : 12. Select 'ByText' option '1' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstGoalNumber0LstFieldControl0Select'\r\n'1/7/2016 2:23:10 PM' - 'Pass' : 13. Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlMedicationOrProcedure0TxtFieldControl0Text'\r\n'1/7/2016 2:23:10 PM' - 'Pass' : 14. Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlDose0TxtFieldControl0Text'\r\n'1/7/2016 2:23:11 PM' - 'Pass' : 15. Select 'ByText' option 'Overall' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstFrequency0LstFieldControl0Select'\r\n'1/7/2016 2:23:11 PM' - 'Pass' : 16. Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'\r\n'1/7/2016 2:23:12 PM' - 'Pass' : 17. Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrescriberTxtFieldControlText'\r\n'1/7/2016 2:23:12 PM' - 'Pass' : 18. Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrimaryCarePhysicianTxtFieldControlText'\r\n'1/7/2016 2:23:13 PM' - 'Pass' : 19. Enter text 'TT' in 'PlcContentPlcContentPlcContentCtlTrackFormPlanCareInitialsTxtFieldControlText'\r\n'1/7/2016 2:23:13 PM' - 'Pass' : 20. Click 'TotalTableCell'\r\n'1/7/2016 2:23:14 PM' - 'Pass' : 21. Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'\r\n'1/7/2016 2:23:15 PM' - 'Pass' : 22. Click 'TableCell'\r\n'1/7/2016 2:23:15 PM' - 'Pass' : 23. Enter text 'Test' in 'PlcContentPlcContentPlcContentRptGoalsCtlGoal20TxtFieldControlMultiline0TextArea'\r\n'1/7/2016 2:23:16 PM' - 'Pass' : 24. Check 'PlcContentPlcContentPlcContentChkPaperSignedCheckBox' to be 'True'\r\n'1/7/2016 2:23:16 PM' - 'Pass' : 25. Check 'PlcContentPlcContentPlcContentChkSeriesCheckBox' to be 'True'\r\n'1/7/2016 2:23:17 PM' - 'Pass' : 26. Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'\r\n'1/7/2016 2:23:18 PM' - 'Pass' : 27. Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'\r\n'1/7/2016 2:23:18 PM' - 'NotRun' : 28. Enter text '02/05/2016' in 'PlcContentPlcContentPlcContentCtlSeriesDtBeginningDateTxtDateText'\r\n'1/7/2016 2:23:18 PM' - 'Pass' : 29. Enter text '1' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'\r\n'1/7/2016 2:23:19 PM' - 'Pass' : 30. Enter text '2' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'\r\n'1/7/2016 2:23:19 PM' - 'Pass' : 31. Click 'PlcContentPlcContentPlcContentBtnSaveLink'\r\n'1/7/2016 2:23:19 PM' - 'Pass' : 32. Verify 'TextContent' 'Contains' 'Beginning Date is a required field.Entered Beginning Date is incorrect.' on 'PlcContentPlcContentPlcContentVldTrackFormSummaryDiv'\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:19 PM' - Overall Result: Pass\r\n'1/7/2016 2:23:19 PM' - Duration: [0 min: 31 sec: 756 msec]\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:22 PM' - Test completed!\r\n",
+          "FailureException": null,
+          "Result": 0,
+          "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+          "TestName": "CreateNewRecordNegativeNoDate1Test",
+          "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+              "__value": {
+                "TestResult": {
+                  "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                  "__value": {
+                    "Browser": 0,
+                    "ExeType": 5,
+                    "SeparatorLineCharCount": 60,
+                    "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'1/7/2016 2:22:48 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/7/2016 2:22:48 PM' - Using 'Chrome' version '47.0.2526.106' as default browser. \r\n'1/7/2016 2:22:48 PM' - Using 'http://va.acceliqc.com/AcceliTrack/Home.aspx' as base url.\r\n'1/7/2016 2:22:49 PM' - 'Pass' : 1. Clear Browser Cache\r\n'1/7/2016 2:22:56 PM' - 'Pass' : 2. Navigate to : 'http://va.acceliqc.com/AcceliTrack/Home.aspx'\r\n'1/7/2016 2:22:56 PM' - 'Pass' : 3. Enter text 'nuries' in 'UserName'\r\n'1/7/2016 2:22:57 PM' - 'Pass' : 4. Enter text 'success' in 'Pass'\r\n'1/7/2016 2:23:01 PM' - 'Pass' : 5. Click 'LoginButton'\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:01 PM' - Overall Result: Pass\r\n'1/7/2016 2:23:01 PM' - Duration: [0 min: 13 sec: 234 msec]\r\n------------------------------------------------------------\r\n",
+                    "FailureException": null,
+                    "Result": 0,
+                    "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                    "TestName": "LoginAsNurse",
+                    "TestPath": "Methods\\LoginAsNurse.tstest",
+                    "TestOwner": null,
+                    "TestDescription": "",
+                    "ProjectPath": "",
+                    "StepResults": [
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 0,
+                          "StepDescription": "Clear Browser Cache",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 1,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 955643458,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 1,
+                          "StepDescription": "Navigate to : 'http://va.acceliqc.com/AcceliTrack/Home.aspx'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 2,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1347723235,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 2,
+                          "StepDescription": "Enter text 'nuries' in 'UserName'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 3,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1106498605,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 3,
+                          "StepDescription": "Enter text 'success' in 'Pass'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 4,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1106498606,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 4,
+                          "StepDescription": "Click 'LoginButton'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 5,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960564,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      }
+                    ],
+                    "NotRunStepDescriptions": [],
+                    "TotalPassedSteps": 5,
+                    "ExecutingTestStepCount": 5,
+                    "TotalNumberOfNotRunSteps": 0,
+                    "IsDataDrivenResult": false,
+                    "DataIterationResults": [],
+                    "EndTime": "2016-01-07T13:23:01.2650593Z",
+                    "StartTime": "2016-01-07T13:22:48.030269Z",
+                    "ProfilerResultsPath": null,
+                    "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                    "CommitedBy": null
+                  }
+                },
+                "ResultType": 0,
+                "Exception": null,
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 0,
+                "StepDescription": "Execute test 'LoginAsNurse'",
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -832664899,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 1,
+                "StepDescription": "Click 'NursingPlanLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960561,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 2,
+                "StepDescription": "Extract 'TextContent' on 'TotalTableCell0' into DataBindVariable $(TotalStudents)",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506171,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 3,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnCreateLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960563,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 4,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentCtlStudentSelectorLnkStudentSelectionLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960564,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 5,
+                "StepDescription": "Click 'AdamsSavannahTableCell'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 6,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960565,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 6,
+                "StepDescription": "Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeLstFieldControlSelect'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 7,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831268,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 7,
+                "StepDescription": "Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeSecondLstFieldControlSelect'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 8,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831269,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 8,
+                "StepDescription": "Enter text 'desease' in 'PlcContentPlcContentPlcContentCtlMedicalConditionTxtFieldControlMultilineTextArea'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 9,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498611,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 9,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 10,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960569,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 10,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 11,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960570,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 11,
+                "StepDescription": "Select 'ByText' option '1' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstGoalNumber0LstFieldControl0Select'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 12,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831273,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 12,
+                "StepDescription": "Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlMedicationOrProcedure0TxtFieldControl0Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 13,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498615,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 13,
+                "StepDescription": "Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlDose0TxtFieldControl0Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 14,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498616,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 14,
+                "StepDescription": "Select 'ByText' option 'Overall' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstFrequency0LstFieldControl0Select'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 15,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831276,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 15,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 16,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960575,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 16,
+                "StepDescription": "Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrescriberTxtFieldControlText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 17,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498619,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 17,
+                "StepDescription": "Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrimaryCarePhysicianTxtFieldControlText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 18,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498620,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 18,
+                "StepDescription": "Enter text 'TT' in 'PlcContentPlcContentPlcContentCtlTrackFormPlanCareInitialsTxtFieldControlText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 19,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498621,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 19,
+                "StepDescription": "Click 'TotalTableCell'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 20,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960579,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 20,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 21,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960580,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 21,
+                "StepDescription": "Click 'TableCell'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 22,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960581,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 22,
+                "StepDescription": "Enter text 'Test' in 'PlcContentPlcContentPlcContentRptGoalsCtlGoal20TxtFieldControlMultiline0TextArea'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 23,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498625,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 23,
+                "StepDescription": "Check 'PlcContentPlcContentPlcContentChkPaperSignedCheckBox' to be 'True'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 24,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1094448582,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 24,
+                "StepDescription": "Check 'PlcContentPlcContentPlcContentChkSeriesCheckBox' to be 'True'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 25,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1094448581,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 25,
+                "StepDescription": "Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 26,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498628,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 26,
+                "StepDescription": "Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 27,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498629,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 27,
+                "StepDescription": "Enter text '02/05/2016' in 'PlcContentPlcContentPlcContentCtlSeriesDtBeginningDateTxtDateText'",
+                "Exception": null,
+                "ResultType": 2,
+                "State": null,
+                "Order": 28,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498630,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 28,
+                "StepDescription": "Enter text '1' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 29,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498631,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 29,
+                "StepDescription": "Enter text '2' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 30,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498632,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 30,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnSaveLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 31,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960590,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordNegativeNoDate1Test",
+                "TestPath": "Tests\\CreateNewRecordNegativeNoDate1Test.tstest",
+                "TestId": "f2f76907-a5c6-470e-8fce-ba7bf4615958",
+                "TestStepIndex": 31,
+                "StepDescription": "Verify 'TextContent' 'Contains' 'Beginning Date is a required field.Entered Beginning Date is incorrect.' on 'PlcContentPlcContentPlcContentVldTrackFormSummaryDiv'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 32,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506142,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [],
+          "TotalPassedSteps": 31,
+          "ExecutingTestStepCount": 31,
+          "TotalNumberOfNotRunSteps": 1,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2016-01-07T13:23:19.629286Z",
+          "StartTime": "2016-01-07T13:22:47.8731662Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+        "__value": {
+          "Browser": 7,
+          "ExeType": 5,
+          "SeparatorLineCharCount": 60,
+          "Message": "Overall Result: Fail\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:23 PM' - Executing test: 'CreateNewRecordPositiveTest(Chrome)', path: 'Tests\\CreateNewRecordPositiveTest.tstest.'\r\n'1/7/2016 2:23:23 PM' - Using .Net Runtime version: '4.0.30319.34209' for test execution. Build version is '2015.3.1015.0'.\r\n'1/7/2016 2:23:23 PM' - Starting execution....\r\n------------------------------------------------------------\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:26 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/7/2016 2:23:26 PM' - Using 'Chrome' version '47.0.2526.106' as default browser. \r\n'1/7/2016 2:23:26 PM' - Using 'http://va.acceliqc.com/AcceliTrack/Home.aspx' as base url.\r\n'1/7/2016 2:23:33 PM' - 'Pass' : 1. Execute test 'LoginAsNurse'\r\n\r\n>>> Test-as-Step 'Methods\\LoginAsNurse.tstest' log starts:\r\n\r\nOverall Result: Pass\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:26 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/7/2016 2:23:26 PM' - Using 'Chrome' version '47.0.2526.106' as default browser. \r\n'1/7/2016 2:23:26 PM' - Using 'http://va.acceliqc.com/AcceliTrack/Home.aspx' as base url.\r\n'1/7/2016 2:23:27 PM' - 'Pass' : 1. Clear Browser Cache\r\n'1/7/2016 2:23:29 PM' - 'Pass' : 2. Navigate to : 'http://va.acceliqc.com/AcceliTrack/Home.aspx'\r\n'1/7/2016 2:23:29 PM' - 'Pass' : 3. Enter text 'nuries' in 'UserName'\r\n'1/7/2016 2:23:30 PM' - 'Pass' : 4. Enter text 'success' in 'Pass'\r\n'1/7/2016 2:23:33 PM' - 'Pass' : 5. Click 'LoginButton'\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:33 PM' - Overall Result: Pass\r\n'1/7/2016 2:23:33 PM' - Duration: [0 min: 7 sec: 809 msec]\r\n------------------------------------------------------------\r\n\r\n<<< Test-as-Step 'Methods\\LoginAsNurse.tstest' log ends.\r\n\r\n'1/7/2016 2:23:35 PM' - 'Pass' : 2. Click 'NursingPlanLink'\r\n'1/7/2016 2:23:36 PM' - 'Pass' : 3. Extract 'TextContent' on 'TotalTableCell0' into DataBindVariable $(TotalStudents)\r\n'1/7/2016 2:23:36 PM' - 'Pass' : 4. Click 'PlcContentPlcContentPlcContentBtnCreateLink'\r\n'1/7/2016 2:23:37 PM' - 'Pass' : 5. Click 'PlcContentPlcContentPlcContentCtlStudentSelectorLnkStudentSelectionLink'\r\n'1/7/2016 2:23:38 PM' - 'Pass' : 6. Click 'AdamsSavannahTableCell'\r\n'1/7/2016 2:23:39 PM' - 'Pass' : 7. Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeLstFieldControlSelect'\r\n'1/7/2016 2:23:39 PM' - 'Pass' : 8. Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeSecondLstFieldControlSelect'\r\n'1/7/2016 2:23:40 PM' - 'Pass' : 9. Enter text 'desease' in 'PlcContentPlcContentPlcContentCtlMedicalConditionTxtFieldControlMultilineTextArea'\r\n'1/7/2016 2:23:40 PM' - 'Pass' : 10. Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'\r\n'1/7/2016 2:23:41 PM' - 'Pass' : 11. Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'\r\n'1/7/2016 2:23:42 PM' - 'Pass' : 12. Select 'ByText' option '1' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstGoalNumber0LstFieldControl0Select'\r\n'1/7/2016 2:23:42 PM' - 'Pass' : 13. Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlMedicationOrProcedure0TxtFieldControl0Text'\r\n'1/7/2016 2:23:43 PM' - 'Pass' : 14. Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlDose0TxtFieldControl0Text'\r\n'1/7/2016 2:23:43 PM' - 'Pass' : 15. Select 'ByText' option 'Overall' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstFrequency0LstFieldControl0Select'\r\n'1/7/2016 2:23:44 PM' - 'Pass' : 16. Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'\r\n'1/7/2016 2:23:45 PM' - 'Pass' : 17. Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrescriberTxtFieldControlText'\r\n'1/7/2016 2:23:45 PM' - 'Pass' : 18. Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrimaryCarePhysicianTxtFieldControlText'\r\n'1/7/2016 2:23:45 PM' - 'Pass' : 19. Enter text 'TT' in 'PlcContentPlcContentPlcContentCtlTrackFormPlanCareInitialsTxtFieldControlText'\r\n'1/7/2016 2:23:46 PM' - 'Pass' : 20. Click 'TotalTableCell'\r\n'1/7/2016 2:23:46 PM' - 'Pass' : 21. Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'\r\n'1/7/2016 2:23:47 PM' - 'Pass' : 22. Click 'TableCell'\r\n'1/7/2016 2:23:48 PM' - 'Pass' : 23. Enter text 'Test' in 'PlcContentPlcContentPlcContentRptGoalsCtlGoal20TxtFieldControlMultiline0TextArea'\r\n'1/7/2016 2:23:48 PM' - 'Pass' : 24. Check 'PlcContentPlcContentPlcContentChkPaperSignedCheckBox' to be 'True'\r\n'1/7/2016 2:23:49 PM' - 'Pass' : 25. Check 'PlcContentPlcContentPlcContentChkSeriesCheckBox' to be 'True'\r\n'1/7/2016 2:23:50 PM' - 'Pass' : 26. Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'\r\n'1/7/2016 2:23:50 PM' - 'Pass' : 27. Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'\r\n'1/7/2016 2:23:51 PM' - 'Pass' : 28. Enter text '02/05/2016' in 'PlcContentPlcContentPlcContentCtlSeriesDtBeginningDateTxtDateText'\r\n'1/7/2016 2:23:51 PM' - 'Pass' : 29. Enter text '1' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'\r\n'1/7/2016 2:23:52 PM' - 'Pass' : 30. Enter text '2' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'\r\n'1/7/2016 2:23:52 PM' - 'NotRun' : 31. Click 'PlcContentPlcContentPlcContentBtnSaveLink'\r\n'1/7/2016 2:23:52 PM' - 'Pass' : 32. Verify, that records counter is changed\r\n'1/7/2016 2:24:23 PM' - 'Fail' : 33. Verify, that records counter is changed\r\n------------------------------------------------------------\r\nFailure Information: \r\n~~~~~~~~~~~~~~~\r\nUnable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [id 'Exact' plcContent_plcContent_plcContent_pnlOutcomeMessages] AND [tagname 'Exact' div]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]' \n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx\r\n------------------------------------------------------------\r\n'1/7/2016 2:24:23 PM' - Detected a failure. Step is marked 'ContinueOnFailure=False' aborting test execution.\r\n------------------------------------------------------------\r\n'1/7/2016 2:24:23 PM' - Overall Result: Fail\r\n'1/7/2016 2:24:23 PM' - Duration: [0 min: 57 sec: 305 msec]\r\n------------------------------------------------------------\r\n'1/7/2016 2:24:26 PM' - Test completed!\r\n",
+          "FailureException": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [id 'Exact' plcContent_plcContent_plcContent_pnlOutcomeMessages] AND [tagname 'Exact' div]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]' \n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "En7b6xWJuEK+TSvMfTkNnqNlQn8=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "PlcContentPlcContentPlcContentPnlOutcomeMessagesDiv",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "id=plcContent_plcContent_plcContent_pnlOutcomeMessages"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=div"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]",
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "Nurse Test(Chrome) 130966466670115077_files\\CreateNewRecordPositiveTest_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "Nurse Test(Chrome) 130966466670115077_files\\CreateNewRecordPositiveTest_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (... Nursing Plan of Care Recorder)' @1/7/2016 2:24:23 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "En7b6xWJuEK+TSvMfTkNnqNlQn8=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "PlcContentPlcContentPlcContentPnlOutcomeMessagesDiv",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=plcContent_plcContent_plcContent_pnlOutcomeMessages"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=div"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]",
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+          "Result": 1,
+          "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+          "TestName": "CreateNewRecordPositiveTest",
+          "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+          "TestOwner": "",
+          "TestDescription": "",
+          "ProjectPath": "",
+          "StepResults": [
+            {
+              "__type": "ArtOfTest.WebAii.Design.Execution.TestAsStepResult",
+              "__value": {
+                "TestResult": {
+                  "__type": "ArtOfTest.WebAii.Design.Execution.TestResult",
+                  "__value": {
+                    "Browser": 0,
+                    "ExeType": 5,
+                    "SeparatorLineCharCount": 60,
+                    "Message": "Overall Result: Pass\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:26 PM' - Enabling Html Popup Tracker. Test expecting Popups.\r\n'1/7/2016 2:23:26 PM' - Using 'Chrome' version '47.0.2526.106' as default browser. \r\n'1/7/2016 2:23:26 PM' - Using 'http://va.acceliqc.com/AcceliTrack/Home.aspx' as base url.\r\n'1/7/2016 2:23:27 PM' - 'Pass' : 1. Clear Browser Cache\r\n'1/7/2016 2:23:29 PM' - 'Pass' : 2. Navigate to : 'http://va.acceliqc.com/AcceliTrack/Home.aspx'\r\n'1/7/2016 2:23:29 PM' - 'Pass' : 3. Enter text 'nuries' in 'UserName'\r\n'1/7/2016 2:23:30 PM' - 'Pass' : 4. Enter text 'success' in 'Pass'\r\n'1/7/2016 2:23:33 PM' - 'Pass' : 5. Click 'LoginButton'\r\n------------------------------------------------------------\r\n'1/7/2016 2:23:33 PM' - Overall Result: Pass\r\n'1/7/2016 2:23:33 PM' - Duration: [0 min: 7 sec: 809 msec]\r\n------------------------------------------------------------\r\n",
+                    "FailureException": null,
+                    "Result": 0,
+                    "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                    "TestName": "LoginAsNurse",
+                    "TestPath": "Methods\\LoginAsNurse.tstest",
+                    "TestOwner": null,
+                    "TestDescription": "",
+                    "ProjectPath": "",
+                    "StepResults": [
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 0,
+                          "StepDescription": "Clear Browser Cache",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 1,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 955643458,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 1,
+                          "StepDescription": "Navigate to : 'http://va.acceliqc.com/AcceliTrack/Home.aspx'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 2,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1347723235,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 2,
+                          "StepDescription": "Enter text 'nuries' in 'UserName'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 3,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1106498605,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 3,
+                          "StepDescription": "Enter text 'success' in 'Pass'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 4,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 1106498606,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      },
+                      {
+                        "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+                        "__value": {
+                          "TestName": "LoginAsNurse",
+                          "TestPath": "Methods\\LoginAsNurse.tstest",
+                          "TestId": "176af72b-c5f5-49db-a995-8889a49df158",
+                          "TestStepIndex": 4,
+                          "StepDescription": "Click 'LoginButton'",
+                          "Exception": null,
+                          "ResultType": 0,
+                          "State": null,
+                          "Order": 5,
+                          "LogMessageOnError": "",
+                          "UserComment": null,
+                          "HashCode": 2087960564,
+                          "IsManual": false,
+                          "WasStepEnabled": false
+                        }
+                      }
+                    ],
+                    "NotRunStepDescriptions": [],
+                    "TotalPassedSteps": 5,
+                    "ExecutingTestStepCount": 5,
+                    "TotalNumberOfNotRunSteps": 0,
+                    "IsDataDrivenResult": false,
+                    "DataIterationResults": [],
+                    "EndTime": "2016-01-07T13:23:33.9811827Z",
+                    "StartTime": "2016-01-07T13:23:26.1720692Z",
+                    "ProfilerResultsPath": null,
+                    "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+                    "CommitedBy": null
+                  }
+                },
+                "ResultType": 0,
+                "Exception": null,
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 0,
+                "StepDescription": "Execute test 'LoginAsNurse'",
+                "State": null,
+                "Order": 1,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -832664899,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 1,
+                "StepDescription": "Click 'NursingPlanLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 2,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960561,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 2,
+                "StepDescription": "Extract 'TextContent' on 'TotalTableCell0' into DataBindVariable $(TotalStudents)",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 3,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506171,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 3,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnCreateLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 4,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960563,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 4,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentCtlStudentSelectorLnkStudentSelectionLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 5,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960564,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 5,
+                "StepDescription": "Click 'AdamsSavannahTableCell'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 6,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960565,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 6,
+                "StepDescription": "Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeLstFieldControlSelect'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 7,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831268,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 7,
+                "StepDescription": "Select 'ByText' option 'B83.0 - Visceral larva migrans' on 'PlcContentPlcContentPlcContentCtlDiagnosticCodeSecondLstFieldControlSelect'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 8,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831269,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 8,
+                "StepDescription": "Enter text 'desease' in 'PlcContentPlcContentPlcContentCtlMedicalConditionTxtFieldControlMultilineTextArea'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 9,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498611,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 9,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 10,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960569,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 10,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 11,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960570,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 11,
+                "StepDescription": "Select 'ByText' option '1' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstGoalNumber0LstFieldControl0Select'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 12,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831273,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 12,
+                "StepDescription": "Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlMedicationOrProcedure0TxtFieldControl0Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 13,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498615,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 13,
+                "StepDescription": "Enter text 'test' in 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsCtlDose0TxtFieldControl0Text'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 14,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498616,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 14,
+                "StepDescription": "Select 'ByText' option 'Overall' on 'PlcContentPlcContentPlcContentRptGoalsAndObjectivesRecordsLstFrequency0LstFieldControl0Select'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 15,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 717831276,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 15,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewRecordLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 16,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960575,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 16,
+                "StepDescription": "Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrescriberTxtFieldControlText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 17,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498619,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 17,
+                "StepDescription": "Enter text 'Test' in 'PlcContentPlcContentPlcContentCtlPrimaryCarePhysicianTxtFieldControlText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 18,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498620,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 18,
+                "StepDescription": "Enter text 'TT' in 'PlcContentPlcContentPlcContentCtlTrackFormPlanCareInitialsTxtFieldControlText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 19,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498621,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 19,
+                "StepDescription": "Click 'TotalTableCell'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 20,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960579,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 20,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnAddNewGoalLink'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 21,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960580,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 21,
+                "StepDescription": "Click 'TableCell'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 22,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960581,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 22,
+                "StepDescription": "Enter text 'Test' in 'PlcContentPlcContentPlcContentRptGoalsCtlGoal20TxtFieldControlMultiline0TextArea'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 23,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498625,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 23,
+                "StepDescription": "Check 'PlcContentPlcContentPlcContentChkPaperSignedCheckBox' to be 'True'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 24,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1094448582,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 24,
+                "StepDescription": "Check 'PlcContentPlcContentPlcContentChkSeriesCheckBox' to be 'True'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 25,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1094448581,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 25,
+                "StepDescription": "Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 26,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498628,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 26,
+                "StepDescription": "Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 27,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498629,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 27,
+                "StepDescription": "Enter text '02/05/2016' in 'PlcContentPlcContentPlcContentCtlSeriesDtBeginningDateTxtDateText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 28,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498630,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 28,
+                "StepDescription": "Enter text '1' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 29,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498631,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 29,
+                "StepDescription": "Enter text '2' in 'PlcContentPlcContentPlcContentCtlSeriesTxtMinutesLimitText'",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 30,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 1106498632,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 30,
+                "StepDescription": "Click 'PlcContentPlcContentPlcContentBtnSaveLink'",
+                "Exception": null,
+                "ResultType": 2,
+                "State": null,
+                "Order": 31,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": 2087960590,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 31,
+                "StepDescription": "Verify, that records counter is changed",
+                "Exception": null,
+                "ResultType": 0,
+                "State": null,
+                "Order": 32,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1038510054,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            },
+            {
+              "__type": "ArtOfTest.WebAii.Design.AutomationStepResult",
+              "__value": {
+                "TestName": "CreateNewRecordPositiveTest",
+                "TestPath": "Tests\\CreateNewRecordPositiveTest.tstest",
+                "TestId": "d56f7336-02cb-4be5-be89-21989f641081",
+                "TestStepIndex": 32,
+                "StepDescription": "Verify, that records counter is changed",
+                "Exception": {
+  "__type": "ArtOfTest.Common.Design.Exceptions.ElementFindException",
+  "__value": {
+    "message": "Unable to locate element. Details: Attempting to find [Html] element using \r\nFind logic \r\n (Html): [id 'Exact' plcContent_plcContent_plcContent_pnlOutcomeMessages] AND [tagname 'Exact' div]\r\n\r\nUnable to locate element. Search failed!\r\n\r\nElement was found by backup search only! We recommend editing the element to correct the primary find expression. \nBackup search: 'xpath=/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]' \n\r\nLearn more about finding elements here:\r\nhttp://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx",
+    "FindExpression": {
+      "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+      "__value": {
+        "uniqueKey": "En7b6xWJuEK+TSvMfTkNnqNlQn8=",
+        "NodeKind": 4,
+        "TechnologyType": 1,
+        "Name": "PlcContentPlcContentPlcContentPnlOutcomeMessagesDiv",
+        "FindExpressions": [
+          {
+            "Key": 1,
+            "Value": {
+              "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+              "__value": {
+                "Clauses": [
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "id=plcContent_plcContent_plcContent_pnlOutcomeMessages"
+                    }
+                  },
+                  {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                    "__value": {
+                      "Clause": "tagname=div"
+                    }
+                  }
+                ],
+                "Constraints": [],
+                "ChainStops": []
+              }
+            }
+          }
+        ],
+        "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]",
+        "DataBindingExpressions": {}
+      }
+    },
+    "DataProvider": {
+      "__type": "ArtOfTest.Common.Design.Exceptions.ErrorDataProvider",
+      "__value": {
+        "_info": {
+          "HostState": {
+            "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+            "__value": {
+              "Mode": 2,
+              "DomFilePath": "Nurse Test(Chrome) 130966466670115077_files\\CreateNewRecordPositiveTest_0_DomTreeOnFailure.txt",
+              "ImageFilePath": "Nurse Test(Chrome) 130966466670115077_files\\CreateNewRecordPositiveTest_0_ImageOnFailure.png",
+              "ExpectedImageFilePath": null,
+              "TechnologyType": 1,
+              "FriendlyName": "Capture Of 'Page (... Nursing Plan of Care Recorder)' @1/7/2016 2:24:23 PM"
+            }
+          },
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "En7b6xWJuEK+TSvMfTkNnqNlQn8=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "PlcContentPlcContentPlcContentPnlOutcomeMessagesDiv",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=plcContent_plcContent_plcContent_pnlOutcomeMessages"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=div"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[3]",
+              "DataBindingExpressions": {}
+            }
+          }
+        }
+      }
+    }
+  }
+},
+                "ResultType": 1,
+                "State": {
+                  "__type": "ArtOfTest.WebAii.Design.AutomationHostState",
+                  "__value": {
+                    "Mode": 2,
+                    "DomFilePath": "Nurse Test(Chrome) 130966466670115077_files\\CreateNewRecordPositiveTest_0_DomTreeOnFailure.txt",
+                    "ImageFilePath": "Nurse Test(Chrome) 130966466670115077_files\\CreateNewRecordPositiveTest_0_ImageOnFailure.png",
+                    "ExpectedImageFilePath": null,
+                    "TechnologyType": 1,
+                    "FriendlyName": "Capture Of 'Page (... Nursing Plan of Care Recorder)' @1/7/2016 2:24:23 PM"
+                  }
+                },
+                "Order": 33,
+                "LogMessageOnError": "",
+                "UserComment": null,
+                "HashCode": -1313506141,
+                "IsManual": false,
+                "WasStepEnabled": false
+              }
+            }
+          ],
+          "NotRunStepDescriptions": [
+            "Comment: Verify That message  'Form has beed saved successfully.' appears",
+            "Verify 'TextContent' 'Contains' 'Form has beed saved successfully.' on 'PlcContentPlcContentPlcContentPnlOutcomeMessagesDiv'"
+          ],
+          "TotalPassedSteps": 31,
+          "ExecutingTestStepCount": 32,
+          "TotalNumberOfNotRunSteps": 1,
+          "IsDataDrivenResult": false,
+          "DataIterationResults": [],
+          "EndTime": "2016-01-07T13:24:23.3324137Z",
+          "StartTime": "2016-01-07T13:23:26.0269715Z",
+          "ProfilerResultsPath": null,
+          "VersionGroupKey": "00000000-0000-0000-0000-000000000000",
+          "CommitedBy": null
+        }
+      }
+    ],
+    "FileName": "Nurse Test(Chrome) 130966466670115077",
+    "Id": "a47757a9-7dc1-4ef0-87e5-311220d451dd",
+    "Machine": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.Machine",
+      "__value": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "NetworkName": "IAKOV",
+        "OperatingSystem": "Windows 8",
+        "InstalledBrowsers": [
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 1,
+              "Version": "9.11.9600.18125"
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 2,
+              "Version": "42.0 (x86 en-US)"
+            }
+          },
+          {
+            "__type": "ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation",
+            "__value": {
+              "Type": 7,
+              "Version": ""
+            }
+          }
+        ],
+        "Status": 0,
+        "ServiceUri": null,
+        "DBState": 0,
+        "UserName": "Iakov Volf"
+      }
+    },
+    "Messages": null,
+    "RunId": "a47757a9-7dc1-4ef0-87e5-311220d451dd",
+    "Comment": null,
+    "TestListId": "81e79b04-46a1-4416-821b-7ae65c8b9ca8",
+    "IsManual": false,
+    "DispatchGroupId": "00000000-0000-0000-0000-000000000000"
+  }
+}
