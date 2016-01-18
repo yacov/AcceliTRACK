@@ -2817,6 +2817,116 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "9c8bce4e-617c-44d9-a73c-27b585906a91",
+            "Description": "Wait for element 'SeriesDetailsH4Tag' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/AcceliTrack/Forms/TherapyPlanCareNursing.aspx",
+                          "Query": "",
+                          "BaseUrl": "http://va.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "AcceliTrack - Nursing Plan of Care Recorder",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AcceliTrackNursingPlan"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "LtYmM3XAAbaHQPRgtADfNCpmAAw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "SeriesDetailsH4Tag",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Series details"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=h4"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[6]/div[4]/h4[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 26,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateNewRecordNegativeNoDate1Testt2j4b1pi.qlr",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "229b9b06-e4e4-4bca-b5fc-ea55e884af03",
             "Description": "Enter text '3' in 'PlcContentPlcContentPlcContentCtlSeriesTxtServicesLimitText'",
             "CustomDescription": null,
@@ -2907,7 +3017,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[6]/div[4]/table[1]/tbody[1]/tr[2]/td[2]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -2928,7 +3038,7 @@
               }
             },
             "Enabled": true,
-            "Order": 26,
+            "Order": 27,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3052,7 +3162,7 @@
               }
             },
             "Enabled": true,
-            "Order": 27,
+            "Order": 28,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3066,7 +3176,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "dc1aa71a-6ffd-49d8-8ac7-1a5f73c86c1a",
-            "Description": "Enter text '02/05/2016' in 'PlcContentPlcContentPlcContentCtlSeriesDtBeginningDateTxtDateText'",
+            "Description": "Enter text '02/05/2016' in 'BeginningDate'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -3128,7 +3238,7 @@
                           "uniqueKey": "HaIUhP4PK6B4pU6HAKspmQr/FD0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentPlcContentPlcContentCtlSeriesDtBeginningDateTxtDateText",
+                          "Name": "BeginningDate",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -3155,7 +3265,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[6]/div[4]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -3175,12 +3285,121 @@
                 "_cipher": null
               }
             },
-            "Enabled": false,
-            "Order": 28,
+            "Enabled": true,
+            "Order": 29,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "WebTestwqr34fox.4us",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "88f84094-dfe0-4f81-8373-831765b5f368",
+            "Description": "Click 'PlcContentPlcContentPlcContentCtlSeriesPnlSeriesBlockDiv'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/AcceliTrack/Forms/TherapyPlanCareNursing.aspx",
+                          "Query": "",
+                          "BaseUrl": "http://va.acceliqc.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "AcceliTrack - Nursing Plan of Care Recorder",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AcceliTrackNursingPlan"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "qRzB0d/vU8fDv/vM7eeVMLAD4/I=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PlcContentPlcContentPlcContentCtlSeriesPnlSeriesBlockDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=plcContent_plcContent_plcContent_ctlSeries_pnlSeriesBlock"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 30,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CreateNewRecordNegativeNoDate1Testwxljxybk.upq",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -3279,7 +3498,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[6]/div[4]/table[1]/tbody[1]/tr[2]/td[2]/input[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -3300,7 +3519,7 @@
               }
             },
             "Enabled": true,
-            "Order": 29,
+            "Order": 31,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3424,7 +3643,7 @@
               }
             },
             "Enabled": true,
-            "Order": 30,
+            "Order": 32,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3533,7 +3752,7 @@
               }
             },
             "Enabled": true,
-            "Order": 31,
+            "Order": 33,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -3645,7 +3864,7 @@
               }
             },
             "Enabled": true,
-            "Order": 32,
+            "Order": 34,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
